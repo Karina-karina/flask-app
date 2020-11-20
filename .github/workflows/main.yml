@@ -41,7 +41,7 @@ jobs:
       - name: Push to Docker Hub
         uses: docker/build-push-action@v2
         with:
-          push: True
+          push: true
           tags: karinakuzmina/flask:latest
   deploy:
    runs-on: ubuntu-latest
